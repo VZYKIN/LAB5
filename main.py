@@ -1,5 +1,4 @@
-class Solution(object):
-    def findMedianSortedArrays(self, nums1, nums2):
+def findMedian(self, nums1, nums2):
         VZ=nums1+nums2
         VZ.sort()
         n=len(VZ)
